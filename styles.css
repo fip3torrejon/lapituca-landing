@@ -1,0 +1,59 @@
+.rrss-menu {
+  display: flex;
+  margin: 2px;
+  height: 100%;
+  align-items: center;
+  align-content: space-around;
+  font-size: 1.8vw;
+}
+
+.rrss-button {
+    padding: 10px;
+}
+
+.rrss-button a {
+  color: #5c308f;
+  text-decoration: none;
+}
+
+.rrss-button a:hover {
+  font-weight: bold;
+}
+
+.rrss-logo {
+  padding: 5px;
+}
+
+.cards :nth-child(even){
+  background-color: #5c308f;
+}
+
+.cards :nth-child(odd){
+  background-color: #6faa56;
+}
+
+.card{
+  color: white;
+  border-radius: 0;
+}
+
+.purpura {
+  color: #5c308f;
+}
+
+.verde {
+  color: #6faa56;
+}
+
+@media /*(min-width: 550px) and*/ (max-width: 768px) {
+  .rrss-button {
+    margin: 2px;
+    font-size: 12vw;
+    align-items: center;
+    align-content: space-between;
+  }
+}
+
+
+
+
