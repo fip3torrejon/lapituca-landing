@@ -4,7 +4,7 @@
   height: 100%;
   align-items: center;
   align-content: space-around;
-  font-size: 1.8vw;
+  font-size: 1.7vw;
 }
 
 .rrss-button {
@@ -24,17 +24,18 @@
   padding: 5px;
 }
 
-.cards :nth-child(even){
+.cards :nth-child(even) {
   background-color: #5c308f;
 }
 
-.cards :nth-child(odd){
+.cards :nth-child(odd) {
   background-color: #6faa56;
 }
 
-.card{
+.card {
   color: white;
   border-radius: 0;
+  font-size: 1.25vw;
 }
 
 .purpura {
@@ -49,8 +50,14 @@
   .rrss-button {
     margin: 2px;
     font-size: 12vw;
-    align-items: center;
-    align-content: space-between;
+  }
+
+  .rrss-button a span {
+    font-size: 3vw;
+  }
+
+  .card {
+    font-size: 2.5vw;
   }
 }
 
